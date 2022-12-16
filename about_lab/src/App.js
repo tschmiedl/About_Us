@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
+import Desiree from "./pages/Desiree";
 
 function App() {
   return (
     <div className="App">
     <Routes>
       <Route path="/desiree" element={<Desiree />} />
-      <Route path="/tanner" element={<Tanner />} />
-      <Route path="/milad" element={<Milad />} />
+      {/* <Route path="/tanner" element={<Tanner />} />
+      <Route path="/milad" element={<Milad />} /> */}
 
 
 
